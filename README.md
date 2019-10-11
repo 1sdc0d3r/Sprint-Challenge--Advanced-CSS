@@ -33,14 +33,18 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+<!--! Responsive is based off the size of the screen. Adaptive adapts to the layout you give it with media queries  -->
 
 2. Describe what it means to be mobile first vs desktop first.
+<!--! Mobile first means designing the mobile version first, then adding media queries as it goes to desktop -->
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
-
+<!--62.5% puts each rem unit at 10px based off the standard font-size  -->
 4. How would you describe preprocessing to someone new to CSS?
+<!--! preprocessing is a program that will decompile your code from more compressed version using additional properties to keep your code DRY  -->
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+<!--! favorite concenpt is nesting. Most trouble is LESS, I prefer SASS 1000%  -->
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -81,13 +85,13 @@ Your finished project must include all of the following requirements:
 * [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
-1.variables.less
-2.mixins.less
-3.reset.less
-4.global.less
-5.navigation.less
-6.footer.less
-7.home-page.less
+variable.less
+mixins.less
+reset.less
+global.less
+navigation.less
+footer.less
+home-page.less
 ```
 
 _You will know everything is working properly when you see the styles enabled for the provided content._  

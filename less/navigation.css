@@ -1,0 +1,20 @@
+header h2 {
+  text-align: center;
+  margin-bottom: 1%;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+header nav ul li {
+  text-align: center;
+  margin: 1.135% 3%;
+}
+header img {
+  width: 100%;
+}

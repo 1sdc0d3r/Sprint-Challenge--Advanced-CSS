@@ -1,1 +1,24 @@
 // Mixins Here
+
+.mixin {
+  color: lawngreen;
+}
+
+.for-mobile {
+  @media (max-width: 500px) {
+  }
+}
+.button (@color, @padding) {
+  color: @color;
+  padding: @padding;
+}
+
+.img-width(@width, @margin) {
+  width: @width;
+  margin: @margin;
+}
+
+.background-color(@background, @color) {
+  background: @background;
+  color: @color;
+}
